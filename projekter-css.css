@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial, sans-serif;
+}
+body {
+	background: url(images/design1.jpg) no-repeat;
+	background-size: cover;
+	}
+body h1{
+	font-family: 'Kaushan Script', cursive;
+	color:white;
+	
+}
+#nav1{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #999;
+}
+#nav1 h1{
+	float: left;
+	font-size: 2.5em;
+	margin-left: 15px;
+}
+#nav1 h1 a{
+	text-decoration: none;
+	color: white;
+}
+#nav1 ul{
+	float: right;
+}
+#nav1 ul li{
+	list-style: none;
+	display: inline-block;
+}
+#nav1 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+#nav1 ul li:hover{
+	background: #DBDBDB
+}
+#active{
+	background: black;
+}
+#main-content{
+	width: 100%;
+	height: 746px;
+	text-align: center;
+	
+}
+#main-content h2{
+	color: black;
+}
+#projekter {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+.projekt1{
+	width: 350px;
+	height: 300px;
+	padding: 5px 0 0 50px;
+	float: left;
+	display: inline;
+	margin-left: 25px;
+}
+.projekt1 img{
+	width: 350px;
+	height: 200px;
+	border-radius: 5px;
+}
+.projekt1 p{
+	text-align: left;
+	background: #C5C3C3;
+}
+.projekt1 h3{
+	background: #C5C3C3;
+}
+#footer{
+	width: 100%;
+	height: 100px;
+	background:#999;;
+	display: flex;
+}
+#nav2{
+	width: 50%;
+	background:#999;;
+}
+#nav2 h3{
+	text-align:left;
+	font-size: 30px;
+	text-decoration: underline;
+	margin-left: 21px;
+}
+#nav2 ul{
+	justify-content: space-between ;
+	text-align: left;
+}
+#nav2 ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 10px
+}
+#nav2 ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 56px;
+}
+#nav2 ul li:hover{
+	background: #D3D3D3;
+}
+#copy{
+	margin-top: 25px;
+}
+
+#nav3{
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 25px;
+	
+}
